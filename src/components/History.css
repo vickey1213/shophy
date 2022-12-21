@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+}
+.mainHistory{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 100px;
+   
+}
+.container{
+    
+    display: flex;
+    align-items: center;
+}
+.para{
+    background-image: url("../Assest/image2.png");
+    height: 1000px;
+    background-size: cover; 
+}
+.htext{
+    padding: 150px;
+    text-align: center;
+}
+
+.carousel{
+    width: 500px;
+    height: 300px;
+}
+

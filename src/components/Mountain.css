@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oldenburg', cursive;
+
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+.mainMountain{
+    position: relative;
+}
+
+.mountain{
+    background-image: url("../Assest/image1.png");
+    height: 745px;
+    width: 1540px;
+    background-size: cover;
+}
+
+.mainLogo{
+    position: absolute;
+    top:150px;
+    left: 500px;
+}
+
+.logo{
+    width: 500px;
+    height: 150px;
+}
+.mainTree{
+     width:100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.tree{
+    width:35px;
+    padding-top:3px;
+}
+
+.logoimg{
+     width:60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.link{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    
+}
